@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en"> 
+  <head> 
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Apply Now - FFP Academy</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template -->
+    <link href="css/landing-page.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- Navigation -->
+    <nav class="navbar  navbar-expand-lg  static-top" style="background-color:#5d6780;"   >
+      <div class="container" >
+          <a class="navbar-brand" href="./index.html"   > 
+            <img src="./img/academyLogo.png" width="100"   alt=""></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> 
+      
+      </div>
+    </nav>
+ 
+
+  <!-- middle fold -->
+  <section id="learnonlocation"  style="padding-top: 4rem;padding-bottom: 4rem;background-color: #1c2224;color: white">
+      <div class="container"> 
+        <h3 class="mb-3 text-center "  style=" color: #37becc;">
+          Polished & Industry-Ready Software Engineering Track
+        </h3>
+        <div style="width: 800px;margin:0 auto;font-size: 1.1rem">
+          <p >The application process consists of a few steps.</p> 
+          <ol >
+            <li>You submit an application. Within 24 hours, we may email you a coding challenge.</li>
+            <li>You complete a technical or non-technical interview. </li>
+            <li>We make a decision and let you know within 2 weeks.</li>
+          </ol>
+         </div>
+        <hr style="border-bottom: 1px solid grey;margin-bottom: 40px">
+        <div style="text-align: center;width: 80%;margin:auto; padding-bottom: 1rem " >
+       
+  <!--   *Basic Info*
+
+First Name   // Last Name   // Email // Age // Zip Code // Phone Number // Any programming experience? - yes or no check circles // Are you a U.S. Citizen or permanent resident? - yes or no //  What would you like to do after FFP Academy? - a) Work As Dev b) Work with an established tech company c) Work with startups d) Found a Startup // How did you hear about FFP Academy? // -->
+        <p class="formTitle">Basic Info</p>
+
+        <form class="formStyle" method="post" action="send_form_email.php"  > 
+            <div class="row">
+              <div class="col">
+                <input class="form-control" type="text" name="FirstName" id="FirstName" placeholder="First Name"  />  
+              </div>
+              <div class="col">
+                 <input class="form-control" type="text" name="LastName" id="LastName" placeholder="Last Name"  />  
+              </div>
+            </div>
+
+              <div class="row">
+              <div class="col">
+                <input class="form-control" type="text" name="Email" id="Email" placeholder="Email"  />  
+              </div>
+              <div class="col">
+                
+                  <input class="form-control" type="text" name="PhoneNumber" id="PhoneNumber" placeholder="Phone Number"  />
+              </div>
+
+            </div> 
+
+             <div class="row">
+              <div class="col">
+                <input class="form-control" type="text" name="ZipCode" id="ZipCode" placeholder="Zip Code"  />  
+              </div>
+              <div class="col">
+                   <input class="form-control" type="text" name="Age" id="Age" placeholder="Age"  />  
+              </div>
+              
+            </div> 
+
+             <div class="row">
+              <div class="col" style="text-align: left">
+                  Any programming experience? 
+               <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio1">Yes</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio2">No</label>
+                </div>
+              </div>
+
+                 <div class="col" style="text-align: left">
+                  Are you a U.S. Citizen or permanent resident? 
+               <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio3" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio1">Yes</label>
+                </div>
+                <div class="custom-control custom-radio">
+                  <input type="radio" id="customRadio4" name="customRadio" class="custom-control-input">
+                  <label class="custom-control-label" for="customRadio2">No</label>
+                </div>
+              </div>
+
+                
+              </div>
+
+
+                <div class="row">
+                      <div class="col" style="text-align: left">
+                          What would you like to do after FFP Academy?  
+                       <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio1">Work As Dev</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio2">Work with an established tech company</label>
+
+                        </div>
+
+                          <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio1">Work with startups</label>
+                        </div>
+                        <div class="custom-control custom-radio">
+                          <input type="radio" id="customRadio2" name="customRadio" class="custom-control-input">
+                          <label class="custom-control-label" for="customRadio2">Found a Startup</label>
+                          
+                        </div>
+                      </div> 
+
+
+                        <div class="col" style="text-align: left;">
+                       <label for=" ">How did you hear about FFP Academy?</label> 
+                      <input class="form-control" type="text" name="where" id="where"    />  
+                    </div> 
+              </div>
+ 
+               </form>
+            </div> 
+                      <hr style="border-bottom: 1px solid grey;margin-bottom: 40px">
+
+              <!-- course information -->
+                <div style="text-align: center;width: 80%;margin:auto; padding-bottom: 1rem " >
+       
+  <!--  *Course Information* - 
+Select Session : Summer 2018 Session // Fall 2018 Session // Winter 2018/19 Session // Spring 2019 Session    
+Location : NYC and LA - both under a drop down 
+Preferred Method of Entry : (drop down) - a) $2500 full tuition fee b) 18% of first year's salary
+
+Please attach resume and cover letter here - upload buttons-->
+        <p class="formTitle">Course Information</p>
+
+        <form class="formStyle" method="post" action="send_form_email.php"  > 
+            <div class="row">
+              <div class="col">
+                Available Sessions
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Select Option 
+                    </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">Summer 2018 Session</a>
+                    <a class="dropdown-item" href="#">Fall 2018 Session</a>
+                    <a class="dropdown-item" href="#">Winter 2018/19 Session</a>
+                    <a class="dropdown-item" href="#"> Spring 2019 Session    </a>
+                  </div>
+                </div> 
+              </div>
+               <div class="col">
+                Location
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Select Option 
+                    </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">NYC</a>
+                    <a class="dropdown-item" href="#">LA</a> 
+                  </div>
+                </div> 
+              </div>
+               <div class="col">
+                Preferred Method of Entry
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Select Option 
+                    </button>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#">$2500 full tuition fee</a>
+                    <a class="dropdown-item" href="#">18% of first year's salary</a> 
+                  </div>
+                </div> 
+              </div>
+
+
+            </div>
+            
+
+            <div class="uploadArea" style="text-align: left;margin-top: 40px">
+                  <label for=" ">Please attach your resume with the application</label> 
+                  
+                  <div class="input-group mb-3" style="width: 100%;margin:0 auto;text-align: left"> 
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                  </div>
+                   <div class="input-group-prepend">
+                    <span class="input-group-text">Upload</span>
+                  </div>
+                </div>
+              </div>
+
+               <div class="uploadArea" style="text-align: left">
+                  <label for=" ">Please attach your cover letter with the application</label> 
+                  
+                  <div class="input-group mb-3" style="width: 100%;margin:0 auto;text-align: left"> 
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="inputGroupFile01">
+                    <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                  </div>
+                   <div class="input-group-prepend">
+                    <span class="input-group-text">Upload</span>
+                  </div>
+                </div>
+              </div>
+                  <button type="submit" class="btn  " style=" margin-top: 40px;padding: 20px 80px; background-color: #37becc;color: white"  >SUBMIT APPLICATION</button> 
+               </form>
+            </div> 
+        
+      </div>
+    </section>
+ 
+    
+
+ 
+    <!-- Footer -->
+    <footer class="footer  " style="background-color: #5d6780;" >
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
+            <ul class="list-inline mb-2">
+              <li class="list-inline-item">
+                <a href="#">About</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="./apply.html">Contact</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Terms of Use</a>
+              </li>
+              <li class="list-inline-item">&sdot;</li>
+              <li class="list-inline-item">
+                <a href="#">Privacy Policy</a>
+              </li>
+            </ul>
+            <p class=" small mb-4 mb-lg-0" style="color: white" >&copy; FFP ACADEMY 2018. All Rights Reserved.</p>
+
+          </div>
+           
+        </div>
+        <p class=" small mb-4 mb-lg-0 pull-right" style="color: white" >apply@ffpacademy.com</p>
+      </div>
+    </footer>
+ 
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src='https://www.google.com/recaptcha/api.js'></script>
+<script type="text/javascript">
+  
+
+</script>
+<script>
+$(document).ready(function(){ 
+  // Add smooth scrolling on all links inside the navbar
+  $("#myNavbar a").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+ 
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 200, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    }  // End if
+  });
+});
+</script>
+  </body>
+
+</html>
