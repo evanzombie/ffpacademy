@@ -58,7 +58,7 @@
 First Name   // Last Name   // Email // Age // Zip Code // Phone Number // Any programming experience? - yes or no check circles // Are you a U.S. Citizen or permanent resident? - yes or no //  What would you like to do after FFP Academy? - a) Work As Dev b) Work with an established tech company c) Work with startups d) Found a Startup // How did you hear about FFP Academy? // -->
         <p class="formTitle">Basic Info</p>
 
-        <form class="formStyle" method="post" action="send_form_email.php"  > 
+        <form class="formStyle" method="post" action="acknowledgement.php"  > 
             <div class="row">
               <div class="col">
                 <input class="form-control" type="text" name="FirstName" id="FirstName" placeholder="First Name"  />  
@@ -148,9 +148,9 @@ First Name   // Last Name   // Email // Age // Zip Code // Phone Number // Any p
                       <input class="form-control" type="text" name="where" id="where"    />  
                     </div> 
               </div>
- 
-               </form>
-            </div> 
+              <input type="submit" name="send" value="Send Message">
+            </form>
+        </div> 
                       <hr style="border-bottom: 1px solid grey;margin-bottom: 40px">
 
               <!-- course information -->
@@ -164,7 +164,7 @@ Preferred Method of Entry : (drop down) - a) $2500 full tuition fee b) 18% of fi
 Please attach resume and cover letter here - upload buttons-->
         <p class="formTitle">Course Information</p>
 
-        <form class="formStyle" method="post" action="send_form_email.php"  > 
+        <form class="formStyle" method="post" action="acknowledgement.php"  > 
             <div class="row">
               <div class="col">
                 Available Sessions
@@ -236,9 +236,9 @@ Please attach resume and cover letter here - upload buttons-->
                   </div>
                 </div>
               </div>
-                  <button type="submit" class="btn  " style=" margin-top: 40px;padding: 20px 80px; background-color: #37becc;color: white"  >SUBMIT APPLICATION</button> 
-               </form>
-            </div> 
+              <button type="submit" name="send" class="btn  " style=" margin-top: 40px;padding: 20px 80px; background-color: #37becc;color: white"  >SUBMIT APPLICATION</button> 
+            </form>
+        </div> 
         
       </div>
     </section>
